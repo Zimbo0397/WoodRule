@@ -1,0 +1,378 @@
+
+
+/*////////////Global/////////////////*/
+h1 {
+    color: #5c5b5b;
+    font-family: "Segoe UI";
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+h2 {
+    color: #575656;
+    font-family: "Segoe UI";
+    font-size: 24px;
+    font-weight: 500;
+}
+p {
+    color: #5d5d5d;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    font-weight: 400;
+}
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.image-holder {
+    overflow: hidden;
+    height: 100%;
+}
+.image-holder img {
+    width: 100%;
+}
+
+
+
+
+/*////////////////////main-page-head/////////////////////////*/
+.main-page-head {
+    background: url(../img/content/main-bg-1.jpg) 100% 0%;
+    background-size: cover;
+    height: 670px;
+    position: relative;
+}
+.side-holder {
+    padding-top: 54px;
+    text-align: right;
+    padding-right: 46px;
+    text-align: right;
+}
+.top-lang-nav {
+    margin-bottom: 23px;
+    margin-right: 36px;
+    font-variant: small-caps;
+}
+.top-lang-nav li {
+    margin-left: 45px;
+}
+.top-lang-nav li:first-child {
+    margin-left: 0;
+}
+.top-lang-nav li a {
+    color: black;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+.main-logo {
+    display: inline-block;
+    margin-bottom: 44px;
+}
+.main-logo .image-holder {
+    width: 240px;
+}
+.main-nav li {
+   margin-bottom: 7px;
+   margin-bottom: 12px;
+} 
+.main-nav li a {
+    color: #202020;
+    font-family: "Segoe UI";
+    font-size: 20px;
+    font-weight: 500;
+}
+.social-list {
+    font-size: 22px;
+}
+.social-list ul li {
+    margin-left: 8px;
+}
+.social-list.main {
+    margin-top: 165px;
+    margin-right: -5px;
+}
+.backplate {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../img/icons/backplate-bg.png);
+    height: 100%;
+    width: calc((100% - 960px) / 2 + 316px);
+}
+
+.main-name {
+    padding-top: 263px;
+    padding-left: 56px;
+    text-align: left;
+}
+.main-name h3 {
+    color: #333;
+    font-family: "Segoe UI";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.main-name h1 {
+    text-shadow: 0 3px 7px transparent;
+    color: #333;
+    font-family: "Segoe UI";
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    text-align: left;
+}
+
+
+/*///////////////general-header////////////////*/
+.general-header {
+    margin-top: 100px;
+}
+
+/*/////////////about-us/////////////////*/
+.about-us {
+    margin-top: 145px;
+}
+.about-us h2 {
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.image-holder.gen {
+    max-height: 352px;
+}
+.about-us .desc-holder {
+    padding-left: 60px;
+}
+.desc-holder.gen p {
+ line-height: 24px;
+ margin-bottom: 22px;
+} 
+.btn-holder.gen {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    color: #575656;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    font-weight: 300;
+}
+.btn-holder.gen a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*/////////////full-lits//////////////////////*/
+.full-lits {
+    margin-top: 122px;
+}
+.full-lits .plit {
+    float: left;
+    height: 315px;
+}
+.full-lits .plit.img {
+    width: 62.5%;
+}
+.full-lits .plit.img .image-holder img {
+    width: 100%;
+    height: auto;
+}
+.full-lits .plit.url {
+    width: 37.5%;
+    padding-top: 18px;
+}
+.full-lits .plit.url.rt {
+    padding-right: 135px;
+}
+.full-lits .plit.url.lf {
+    padding-left: 135px;
+}
+.full-lits .plit.url h1 {
+    color: #c5c3c3;
+    font-family: Arial;
+    font-size: 75px;
+    font-weight: 400;
+    text-align: center;
+}
+.full-lits .plit.url h2 {
+    color: #575656;
+    font-family: "Segoe UI";
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+.full-lits .plit.url .btn-holder.gen {
+    margin-top: 40px;
+}
+
+
+/*//////////adaptive-blocks///////////////*/
+.adaptive-blocks {
+    margin-top: 100px;
+}
+.adaptive-blocks .ad-block {
+    float: left;
+    margin: 10px;
+    position: relative;
+} 
+.adaptive-blocks .blocks-wraper {
+
+}
+.adaptive-blocks .ad-block.sm {
+    width: 220px;
+    height: 190px;
+}
+.adaptive-blocks .ad-block.lg-v {
+    width: 220px;
+    height: 400px;
+}
+.adaptive-blocks .ad-block.lg-g {
+    height: 190px;
+    width: 460px;
+}
+.adaptive-blocks .ad-block .image-holder {
+}
+.adaptive-blocks .ad-block .content-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.adaptive-blocks .ad-block .content-holder .blackoute {
+    background: black;
+    opacity: .3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.adaptive-blocks .ad-block:hover .content-holder .blackoute {
+    opacity: 0.4;
+}
+.adaptive-blocks .ad-block .content-holder .bordered {
+    outline: 1px solid #fff;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding-top: 23px;
+    opacity: 0;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.adaptive-blocks .ad-block:hover .content-holder .bordered {
+    opacity: 1;
+}
+.adaptive-blocks .ad-block .content-holder .bordered .h-holder {
+    margin-left: 25px;
+}
+.adaptive-blocks .ad-block .content-holder .bordered h1 {
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+}
+.adaptive-blocks .ad-block .content-holder .bordered h2 {
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+}
+.adaptive-blocks .ad-block .content-holder .bordered .btn-holder {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff; 
+}
+.adaptive-blocks .ad-block .content-holder .bordered .btn-holder {
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 4px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+/*////////////////location///////////////*/
+.location {
+    margin-top: 121px;
+}
+.map-wraper {
+    width: 540px;
+    height: 405px;
+}
+#map {
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: url(desaturate.svg#greyscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+.location .contacts-list {
+    padding-left: 42px;
+    color: #515050;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    margin-top: -5px;
+    font-weight: 300;
+}
+.location .contacts-list ul li {
+    margin-bottom: 22px;
+}
+
+/*/////////////footer//////////////////*/
+.footer {
+    background: #aaa8a8;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 155px;
+    height: 80px;
+}
+.footer span {
+    font-family: "Segoe UI";
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer span.color-w {
+    color: white;
+}
+
+
+
+/*///////////////////blueimp-gallery custom/////////////////////*/
+.blueimp-gallery>.indicator>li {
+    width: 150px;
+    height: 150px;
+    border-radius: 0;
+}
