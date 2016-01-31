@@ -583,3 +583,31 @@ a {
     line-height: 24px;
     margin-top: 20px;
 }
+
+
+.soc_buttons {
+    position: absolute;
+    right: 0;
+    top: 152px;
+    width: 70px;
+}
+
+.soc_buttons a {
+    display: block;
+    position: relative;
+}
+.soc_buttons a img {
+    margin-top: 30px;
+}
+
+#scrollup {
+    text-align: center;
+position: fixed; /* фиксированная позиция */
+opacity: 0.8; /* прозрачность */
+padding: 15px 10px 10px; /* отступы */
+border-radius: 5px; /* скругление углов */
+left: 10px; /* отступ слева */
+bottom: 10px; /* отступ снизу */
+display: none; /* спрятать блок */
+cursor: pointer;
+}

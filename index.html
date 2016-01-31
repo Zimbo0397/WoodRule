@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="css/media.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
+    <body id="id_blocka">
         <section class="main-page-head">
             <div class="backplate"></div>
             <div class="container">
@@ -474,15 +474,61 @@
                 </div>
             </div>
         </section>
+        <div class="soc_buttons" id="soc_buttons">
 
+            <a title="Следите за мной на twitter" target="_blank" href=""><img src="img/icons/main-icon.png" ></a>
+
+            <a title="Следите за мной на facebook" target="_blank" href=""><img src="img/icons/youtube.png"></a>
+
+            <a title="Следите за мной по RSS" target="_blank" href=""><img src="img/icons/insta-icon.png"></a>
+
+            <a title="Следите за мной по RSS" target="_blank" href=""><img src="img/icons/facebook.png"></a>  
+
+        </div>
+        <div id="scrollup">
+            <img alt="Прокрутить вверх" src="img/icons/up.png">
+            <p>
+                Наверх
+            </p>
+        </div>
 
         <script src="js/vendor/jquery-2.1.4.min.js"></script>
+        <script src="js/vendor/jquery.socializer.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/vendor/jquery.blueimp-gallery.min.js"></script>
         <script src="js/blueimp-gallery-Init.js"></script>
         <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
         <script src="js/mono_icon_customImage.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(function(){
+                $('#soc_buttons').socializer({
+                    container: '#id_blocka',
+                    scrolltop: 450,
+                    inittop: 1052,
+                    hoverdistance: 0
+                });
+            });
+
+            jQuery( document ).ready(function() {
+                jQuery('#scrollup img').mouseover( function(){
+                    jQuery( this ).animate({opacity: 0.65},100);
+                }).mouseout( function(){
+                    jQuery( this ).animate({opacity: 1},100);
+                }).click( function(){
+                    window.scroll(0 ,0); 
+                    return false;
+                });
+
+                jQuery(window).scroll(function(){
+                    if ( jQuery(document).scrollTop() > 0 ) {
+                        jQuery('#scrollup').fadeIn('fast');
+                    } else {
+                        jQuery('#scrollup').fadeOut('fast');
+                    }
+                });
+            });
+        </script>
 
     </body>
 </html>
