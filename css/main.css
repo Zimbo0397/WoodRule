@@ -69,6 +69,20 @@ a {
     font-size: 16px;
     font-weight: 600;
     font-variant: small-caps;
+    position: relative;
+    text-decoration: none;
+}
+.top-lang-nav li a:hover:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    bottom: -6px;
+    left: 0;
+    background: #000;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
 }
 .main-logo {
     display: inline-block;
@@ -86,6 +100,23 @@ a {
     font-family: "Segoe UI";
     font-size: 20px;
     font-weight: 500;
+    position: relative;
+    text-decoration: none;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.main-nav li a:hover:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    bottom: -6px;
+    left: 0;
+    background: #000;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
 }
 .social-list {
     font-size: 22px;
@@ -96,6 +127,20 @@ a {
 .social-list.main {
     margin-top: 165px;
     margin-right: -5px;
+}
+.social-list.main li img {
+    -webkit-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s;
+}
+.social-list.main li:first-child img {
+    margin-top: 3px;
+}
+.social-list.main li img:hover {
+    opacity: .8;
+    -webkit-transition: opacity .1s;
+    -o-transition: opacity .1s;
+    transition: opacity .1s;
 }
 .backplate {
     position: absolute;
@@ -156,7 +201,7 @@ a {
 } 
 .btn-holder.gen {
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid #575656;
     padding: 6px;
     padding-left: 15px;
     padding-right: 15px;
@@ -165,6 +210,10 @@ a {
     font-family: "Segoe UI";
     font-size: 18px;
     font-weight: 300;
+}
+.btn-holder.gen:hover {
+    color: black;
+    border: 1px solid black;
 }
 .btn-holder.gen a {
     text-decoration: none;
@@ -406,6 +455,10 @@ a {
     top: 7px;
     position: relative;
 }
+#blueimpPrev:hover,
+#blueimpNext:hover {
+    opacity: .8;
+}
 #blueimpPrev {
     background: url(../img/icons/prev-btn.png); 
     right: 46px;
@@ -466,8 +519,24 @@ a {
     font-family: "Segoe UI";
     font-size: 20px;
     font-weight: 300;
+    position: relative;
+    text-decoration: none;
 }
+.top-line .line-nav-list li a:hover:after {
+    position: absolute;
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    bottom: -6px;
+    left: 0;
+    background: #000;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
 
+
+} 
 
 #links .slides {
     overflow: hidden;
@@ -499,6 +568,9 @@ a {
     float: left;
     text-align: center;
     padding-top: 58px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 .nav-holder .nav-block span {
     text-decoration: none;
@@ -508,8 +580,12 @@ a {
     font-weight: 300;
     line-height: 1px;
 }
-.nav-holder .nav-block.active  {
+.nav-holder .nav-block.active,
+.nav-holder .nav-block:hover  {
     background: #ecebeb;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
 }
 
 
@@ -572,6 +648,13 @@ a {
     margin-top: 38px;
     text-align: center;
     width: 122px;
+    outline: none;
+}
+.product-item .btn-holder:hover,
+.product-item a:focus {
+    color: black;
+    border-color: black;
+    outline: none;
 }
 
 /*//////////condition/////////////////*/
@@ -602,12 +685,89 @@ a {
 
 #scrollup {
     text-align: center;
-position: fixed; /* фиксированная позиция */
-opacity: 0.8; /* прозрачность */
-padding: 15px 10px 10px; /* отступы */
-border-radius: 5px; /* скругление углов */
-left: 10px; /* отступ слева */
-bottom: 10px; /* отступ снизу */
-display: none; /* спрятать блок */
-cursor: pointer;
+    position: fixed; 
+    opacity: 0.8; 
+    padding: 15px 10px 10px;
+    border-radius: 5px; 
+    left: 10px; 
+    bottom: 10px;
+    display: none;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+.modal-content {
+    border-radius: 0;
+    padding: 45px 60px;
+    border-color: #8c8b8b;
+    position: relative;
+}
+.modal-content button.send {
+    background: transparent;
+    border: 1px solid black;
+    padding: 7px;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.modal-content .modal-header,
+.modal-content .modal-footer {
+    border: none;
+}
+.modal-content input {
+    padding-left: 15px;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.modal-content .form-group.agree {
+    padding-left: 40px;
+    position: relative;
+}
+.modal-content .form-group.agree input {
+    background: transparent;
+    width: 18px;
+    outline: none;
+    display: inline-block;
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    height: 25px;
+}
+.modal-content .form-group.agree label {
+    color: #5c5b5b;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    display: inline-block;
+    width: auto;
+}
+.finish-plank {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 549px;
+    width: 100%;
+    background: #fff;
+    margin-top: 82px;
+    text-align: center;
+}
+.finish-plank .image-holder {
+    width: 154px;
+    height: 57px;
+    display: inline-block;
+}
+.finish-plank .text-holder {
+    color: #5c5b5b;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    font-variant: small-caps;
+    width: 220px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 44px;
 }
