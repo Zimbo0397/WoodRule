@@ -289,7 +289,7 @@
 		padding-top: 20px;
 	}
 	.social-list ul li {
-		margin-left: 5px;
+		margin-left: -1px;
 	}
 	.full-lits .plit.url h1 {
 		font-size: 36px;
