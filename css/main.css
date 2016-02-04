@@ -2,38 +2,38 @@
 
 /*////////////Global/////////////////*/
 h1 {
-    color: #5c5b5b;
-    font-family: "Segoe UI";
-    font-size: 36px;
-    font-weight: 300;
-    text-align: center;
+	color: #5c5b5b;
+	font-family: "Segoe UI";
+	font-size: 36px;
+	font-weight: 300;
+	text-align: center;
 }
 h2 {
-    color: #575656;
-    font-family: "Segoe UI";
-    font-size: 24px;
-    font-weight: 500;
+	color: #575656;
+	font-family: "Segoe UI";
+	font-size: 24px;
+	font-weight: 500;
 }
 p {
-    color: #5d5d5d;
-    font-family: "Segoe UI";
-    font-size: 16px;
-    font-weight: 400;
+	color: #5d5d5d;
+	font-family: "Segoe UI";
+	font-size: 16px;
+	font-weight: 400;
 }
 ul {
-    padding-left: 0;
-    list-style: none;
+	padding-left: 0;
+	list-style: none;
 }
 a {
-    text-decoration: none;
-    color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 .image-holder {
-    overflow: hidden;
-    height: 100%;
+	overflow: hidden;
+	height: 100%;
 }
 .image-holder img {
-    width: 100%;
+	width: 100%;
 }
 
 
@@ -41,774 +41,787 @@ a {
 
 /*////////////////////main-page-head/////////////////////////*/
 .main-page-head {
-    background: url(../img/content/main-bg-1.jpg) 0% 50%;
-    background-size: cover;
-    height: 670px;
-    position: relative;
+	background: url(../img/content/main-bg-1.jpg) 0% 50%;
+	background-size: cover;
+	height: 670px;
+	position: relative;
 }
 .side-holder {
-    padding-top: 54px;
-    text-align: right;
-    padding-right: 46px;
-    text-align: right;
-    position: relative;
-    z-index: 2;
+	padding-top: 54px;
+	text-align: right;
+	padding-right: 46px;
+	text-align: right;
+	position: relative;
+	z-index: 2;
 }
 .top-lang-nav {
-    margin-bottom: 23px;
-    margin-right: 36px;
-    font-variant: small-caps;
+	margin-bottom: 23px;
+	margin-right: 36px;
+	font-variant: small-caps;
 }
 .top-lang-nav li {
-    margin-left: 45px;
+	margin-left: 45px;
 }
 .top-lang-nav li:first-child {
-    margin-left: 0;
+	margin-left: 0;
 }
 .top-lang-nav li a {
-    color: black;
-    font-family: "Segoe UI";
-    font-size: 16px;
-    font-weight: 600;
-    font-variant: small-caps;
-    position: relative;
-    text-decoration: none;
+	color: black;
+	font-family: "Segoe UI";
+	font-size: 16px;
+	font-weight: 600;
+	font-variant: small-caps;
+	position: relative;
+	text-decoration: none;
 }
 .top-lang-nav li a:hover:after {
-    content: "";
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    bottom: -6px;
-    left: 0;
-    background: #000;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
+	content: "";
+	position: absolute;
+	height: 3px;
+	width: 100%;
+	bottom: -6px;
+	left: 0;
+	background: #000;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
 }
 .main-logo {
-    display: inline-block;
-    margin-bottom: 44px;
+	display: inline-block;
+	margin-bottom: 44px;
 }
 .main-logo .image-holder {
-    width: 240px;
+	width: 240px;
 }
 .main-nav li {
    margin-bottom: 7px;
    margin-bottom: 12px;
 } 
 .main-nav li a {
-    color: #202020;
-    font-family: "Segoe UI";
-    font-size: 20px;
-    font-weight: 500;
-    position: relative;
-    text-decoration: none;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
+	color: #202020;
+	font-family: "Segoe UI";
+	font-size: 20px;
+	font-weight: 500;
+	position: relative;
+	text-decoration: none;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
 }
 .main-nav li a:hover:after {
-    content: "";
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    bottom: -6px;
-    left: 0;
-    background: #000;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
+	content: "";
+	position: absolute;
+	height: 3px;
+	width: 100%;
+	bottom: -6px;
+	left: 0;
+	background: #000;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
 }
 .social-list {
-    font-size: 22px;
+	font-size: 22px;
 }
 .social-list ul li {
-    margin-left: 8px;
+	margin-left: 8px;
 }
 .social-list.main {
-    margin-top: 165px;
-    margin-right: -5px;
+	margin-top: 165px;
+	margin-right: -5px;
 }
 .social-list.main li img {
-    -webkit-transition: opacity .3s;
-    -o-transition: opacity .3s;
-    transition: opacity .3s;
+	-webkit-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	transition: opacity .3s;
 }
 .social-list.main li:first-child img {
-    margin-top: 3px;
+	margin-top: 3px;
 }
 .social-list.main li img:hover {
-    opacity: .8;
-    -webkit-transition: opacity .1s;
-    -o-transition: opacity .1s;
-    transition: opacity .1s;
+	opacity: .8;
+	-webkit-transition: opacity .1s;
+	-o-transition: opacity .1s;
+	transition: opacity .1s;
 }
 .backplate {
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: url(../img/icons/backplate-bg.png);
-    height: 100%;
-    width: calc((100% - 960px) / 2 + 316px);
-    z-index: 2;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(../img/icons/backplate-bg.png);
+	height: 100%;
+	width: calc((100% - 960px) / 2 + 316px);
+	z-index: 2;
 }
 
 .main-name {
-    padding-top: 263px;
-    padding-left: 56px;
-    text-align: left;
-    position: relative;
-    z-index: 2;
+	padding-top: 263px;
+	padding-left: 56px;
+	text-align: left;
+	position: relative;
+	z-index: 2;
 }
 .main-name h3 {
-    color: #333;
-    font-family: "Segoe UI";
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 0px;
+	color: #333;
+	font-family: "Segoe UI";
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 0px;
 }
 .main-name h1 {
-    text-shadow: 0 3px 7px transparent;
-    color: #333;
-    font-family: "Segoe UI";
-    font-size: 72px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-top: 0;
-    text-align: left;
+	text-shadow: 0 3px 7px transparent;
+	color: #333;
+	font-family: "Segoe UI";
+	font-size: 72px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 0;
+	text-align: left;
 }
 
 
 /*///////////////general-header////////////////*/
 .general-header {
-    margin-top: 100px;
+	margin-top: 100px;
 }
 
 /*/////////////about-us/////////////////*/
 .about-us {
-    margin-top: 145px;
+	margin-top: 145px;
 }
 .about-us h2 {
-    margin-top: 0;
-    margin-bottom: 35px;
+	margin-top: 0;
+	margin-bottom: 35px;
 }
 .image-holder.gen {
-    max-height: 352px;
+	max-height: 352px;
 }
 .about-us .desc-holder {
-    padding-left: 60px;
+	padding-left: 60px;
 }
 .desc-holder.gen p {
- line-height: 24px;
- margin-bottom: 22px;
+	line-height: 24px;
+	margin-bottom: 22px;
 } 
-.btn-holder.gen {
-    display: inline-block;
-    border: 1px solid #575656;
-    padding: 6px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 20px;
-    color: #575656;
-    font-family: "Segoe UI";
-    font-size: 18px;
-    font-weight: 300;
+.about-us .btn-holder.gen {
+	border: 1px solid #575656;
+	padding: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 20px;
+	color: #575656;
+	font-family: "Segoe UI";
+	font-size: 18px;
+	font-weight: 300;
+	display: none;
+	cursor: pointer;
+}
+.about-us .desc-holder.gen .text-holder {
+	max-height: 323px;
+	overflow: hidden;
+}
+.about-us .desc-holder.gen .text-holder.open {
+	max-height: 900px;
+	-webkit-transition: max-height .8s;
+	transition: max-height .8s;
+}
+.about-us .desc-holder.gen .btn-holder.gen.active {
+	display: inline-block;
 }
 .btn-holder.gen:hover {
-    color: black;
-    border: 1px solid black;
+	color: black;
+	border: 1px solid black;
 }
 .btn-holder.gen a {
-    text-decoration: none;
-    color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 /*/////////////full-lits//////////////////////*/
 .full-lits {
-    margin-top: 122px;
+	margin-top: 122px;
 }
 .full-lits .plit {
-    float: left;
-    height: 315px;
+	float: left;
+	height: 315px;
 }
 .full-lits .plit.img {
-    width: 62.5%;
+	width: 62.5%;
 }
 .full-lits .plit.img .image-holder img {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 .full-lits .plit.url {
-    width: 37.5%;
-    padding-top: 18px;
-    background: #fbf8f8;
+	width: 37.5%;
+	padding-top: 18px;
+	background: #fbf8f8;
 }
 .full-lits .plit.url.rt {
-    padding-right: 135px;
-    padding-left: 17px;
+	padding-right: 135px;
+	padding-left: 17px;
 }
 .full-lits .plit.url.lf {
-    padding-left: 135px;
-    padding-right: 17px;
+	padding-left: 135px;
+	padding-right: 17px;
 }
 .full-lits .plit.url h1 {
-    color: #c5c3c3;
-    font-family: Arial;
-    font-size: 75px;
-    font-weight: 400;
-    text-align: center;
+	color: #c5c3c3;
+	font-family: Arial;
+	font-size: 75px;
+	font-weight: 400;
+	text-align: center;
 }
 .full-lits .plit.url h2 {
-    color: #575656;
-    font-family: "Segoe UI";
-    font-size: 25px;
-    font-weight: 400;
-    text-align: center;
+	color: #575656;
+	font-family: "Segoe UI";
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
 }
 .full-lits .plit.url h3 {
-    color: #575656;
-    font-family: "Segoe UI";
-    font-size: 24px;
-    font-weight: 300;
-    margin-top: 0;
-    margin-bottom: 22px;
+	color: #575656;
+	font-family: "Segoe UI";
+	font-size: 24px;
+	font-weight: 300;
+	margin-top: 0;
+	margin-bottom: 22px;
 }
 .full-lits .plit.url.lf h3 {
-    text-align: right;
+	text-align: right;
 }
 .full-lits .plit.url p {
-    line-height: 24px;
+	line-height: 24px;
 }
 .full-lits .plit.url.lf p {
-    text-align: right;
+	text-align: right;
 }
 .full-lits .plit.url .btn-holder.gen {
-    margin-top: 40px;
+	margin-top: 40px;
 }
 
 
 
 /*//////////adaptive-blocks///////////////*/
 .adaptive-blocks {
-    margin-top: 100px;
+	margin-top: 100px;
 }
 .adaptive-blocks .ad-block {
-    float: left;
-    margin: 10px;
-    position: relative;
+	float: left;
+	margin: 10px;
+	position: relative;
 } 
 .adaptive-blocks .blocks-wraper .blocks-holder {
-    overflow: hidden;
-    max-height: 420px;
+	overflow: hidden;
+	max-height: 420px;
 }
 .adaptive-blocks .ad-block.sm {
-    width: 220px;
-    height: 190px;
+	width: 220px;
+	height: 190px;
 }
 .adaptive-blocks .ad-block.lg-v {
-    width: 220px;
-    height: 400px;
+	width: 220px;
+	height: 400px;
 }
 .adaptive-blocks .ad-block.lg-g {
-    height: 190px;
-    width: 460px;
+	height: 190px;
+	width: 460px;
 }
 .adaptive-blocks .ad-block .image-holder {
 }
 .adaptive-blocks .ad-block .content-holder {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
 }
 
 .adaptive-blocks .ad-block .content-holder .blackoute {
-    background: black;
-    opacity: .3;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    -webkit-transition: opacity .5s;
-    -o-transition: opacity .5s;
-    transition: opacity .5s;
+	background: black;
+	opacity: .3;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	-webkit-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	transition: opacity .5s;
 }
 .adaptive-blocks .ad-block:hover .content-holder .blackoute {
-    opacity: 0.4;
+	opacity: 0.4;
 }
 .adaptive-blocks .ad-block .content-holder .bordered {
-    outline: 1px solid #fff;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    padding-top: 23px;
-    opacity: 0;
-    -webkit-transition: opacity .5s;
-    -o-transition: opacity .5s;
-    transition: opacity .5s;
+	outline: 1px solid #fff;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	padding-top: 23px;
+	opacity: 0;
+	-webkit-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	transition: opacity .5s;
 }
 .adaptive-blocks .ad-block:hover .content-holder .bordered {
-    opacity: 1;
+	opacity: 1;
 }
 .adaptive-blocks .ad-block .content-holder .bordered .h-holder {
-    margin-left: 25px;
+	margin-left: 25px;
 }
 .adaptive-blocks .ad-block .content-holder .bordered h1 {
-    color: white;
-    font-family: "Segoe UI";
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 24px;
-    text-align: left;
-    margin: 0;
+	color: white;
+	font-family: "Segoe UI";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 24px;
+	text-align: left;
+	margin: 0;
 }
 .adaptive-blocks .ad-block .content-holder .bordered h2 {
-    color: white;
-    font-family: "Segoe UI";
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-    text-align: left;
-    margin: 0;
+	color: white;
+	font-family: "Segoe UI";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	text-align: left;
+	margin: 0;
 }
 .adaptive-blocks .ad-block .content-holder .bordered .btn-holder {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    border-top: 1px solid #fff;
-    border-left: 1px solid #fff; 
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff; 
 }
 .adaptive-blocks .ad-block .content-holder .bordered .btn-holder {
-    color: white;
-    font-family: "Segoe UI";
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 24px;
-    padding: 4px;
-    padding-left: 19px;
-    padding-right: 19px;
+	color: white;
+	font-family: "Segoe UI";
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 24px;
+	padding: 4px;
+	padding-left: 19px;
+	padding-right: 19px;
 }
 
 /*////////////////location///////////////*/
 .location {
-    margin-top: 121px;
+	margin-top: 121px;
 }
 .map-wraper {
-    width: 540px;
-    height: 405px;
+	width: 540px;
+	height: 405px;
 }
 #map {
-    height: 100%;
-    width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: url(desaturate.svg#greyscale);
-    filter: gray;
-    -webkit-filter: grayscale(1);
+	height: 100%;
+	width: 100%;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: url(desaturate.svg#greyscale);
+	filter: gray;
+	-webkit-filter: grayscale(1);
 }
 .location .contacts-list {
-    padding-left: 42px;
-    color: #515050;
-    font-family: "Segoe UI";
-    font-size: 18px;
-    margin-top: -5px;
-    font-weight: 300;
+	padding-left: 42px;
+	color: #515050;
+	font-family: "Segoe UI";
+	font-size: 18px;
+	margin-top: -5px;
+	font-weight: 300;
 }
 .location .contacts-list ul li {
-    margin-bottom: 22px;
+	margin-bottom: 22px;
 }
 
 /*/////////////footer//////////////////*/
 .footer {
-    background: #aaa8a8;
-    text-align: center;
-    padding-top: 30px;
-    margin-top: 155px;
-    height: 80px;
+	background: #aaa8a8;
+	text-align: center;
+	padding-top: 30px;
+	margin-top: 155px;
+	height: 80px;
 }
 .footer span {
-    font-family: "Segoe UI";
-    font-size: 16px;
-    font-weight: 500;
+	font-family: "Segoe UI";
+	font-size: 16px;
+	font-weight: 500;
 }
 .footer span.color-w {
-    color: white;
+	color: white;
 }
 
 
 
 /*///////////////////blueimp-gallery custom/////////////////////*/
 .blueimp-gallery>.indicator>li {
-    width: 150px;
-    height: 150px;
-    border-radius: 0;
+	width: 150px;
+	height: 150px;
+	border-radius: 0;
 }
 #blueimpPrev,
 #blueimpNext {
-    width: 35px;
-    height: 35px;
-    display: inline-block;
-    background: url(../img/icons/next-btn.png); 
-    top: 7px;
-    position: relative;
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	background: url(../img/icons/next-btn.png); 
+	top: 7px;
+	position: relative;
 }
 #blueimpPrev:hover,
 #blueimpNext:hover {
-    opacity: .8;
+	opacity: .8;
 }
 #blueimpPrev {
-    background: url(../img/icons/prev-btn.png); 
-    right: 46px;
+	background: url(../img/icons/prev-btn.png); 
+	right: 46px;
 }
 #blueimpNext {
-    left: 49px;
+	left: 49px;
 }
 .video-holder .nav-holder {
-    text-align: center;
+	text-align: center;
 }
 
 /*/////////////////vodeo-section//////////////*/
 .vodeo-section {
-    margin-top: 195px;
+	margin-top: 195px;
 }
 .vodeo-section .blueimp-gallery-carousel {
-    padding-bottom: 51.25%;
+	padding-bottom: 51.25%;
 }
 .vodeo-section .blueimp-gallery-carousel .slides {
-    cursor: pointer;
+	cursor: pointer;
 }
 .vodeo-section .pd-rt-cncl {
-    padding-right: 0;
+	padding-right: 0;
 }
 .vodeo-section .blueimp-gallery-carousel {
-    box-shadow: none;
-    margin: 0;
+	box-shadow: none;
+	margin: 0;
 }
 .vodeo-section .desc-holder h3 {
-    color: #575656;
-    font-family: "Segoe UI";
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 13px;
-    margin-bottom: 17px;
+	color: #575656;
+	font-family: "Segoe UI";
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 13px;
+	margin-bottom: 17px;
 }
 .vodeo-section .desc-holder p {
-    line-height: 24px;
+	line-height: 24px;
 }
 /*//////////////top-line//////////////*/
 .top-line {
-    padding-top: 21px;
+	padding-top: 21px;
 }
 .top-line .padd-cncl {
-    padding: 0;
+	padding: 0;
 }
 .top-line .top-line-logo {
-    margin-left: 7px;
+	margin-left: 7px;
 }
 .top-line .top-line-logo .image-holder {
-    width: 157px;
+	width: 157px;
 }
 .top-line .line-nav-list {
-    margin-top: 29px;
-    margin-left: 25px;
+	margin-top: 29px;
+	margin-left: 25px;
 }
 .top-line .line-nav-list li {
-    margin-left: 39px;
+	margin-left: 39px;
 }
 .top-line .line-nav-list li a {
-    color: #202020;
-    font-family: "Segoe UI";
-    font-size: 20px;
-    font-weight: 300;
-    position: relative;
-    text-decoration: none;
+	color: #202020;
+	font-family: "Segoe UI";
+	font-size: 20px;
+	font-weight: 300;
+	position: relative;
+	text-decoration: none;
 }
 .top-line .line-nav-list li a:hover:after {
-    position: absolute;
-    content: "";
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    bottom: -6px;
-    left: 0;
-    background: #000;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
+	position: absolute;
+	content: "";
+	position: absolute;
+	height: 3px;
+	width: 100%;
+	bottom: -6px;
+	left: 0;
+	background: #000;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
 
 
 } 
 
 #links .slides {
-    overflow: hidden;
-    height: 100%;
-    cursor: pointer;
+	overflow: hidden;
+	height: 100%;
+	cursor: pointer;
 }
 .main-carousel .blueimp-gallery>.slides>.slide>.slide-content {
-    width: 100%;
+	width: 100%;
 }
 .main-carousel .blueimp-gallery-carousel .slides .slide {
-    height: 100%;
-    overflow: hidden;
+	height: 100%;
+	overflow: hidden;
 }
 .main-carousel .blueimp-gallery-carousel {
-    padding-bottom: 33.25%;
-    margin: 0;
-    box-shadow: none;
-    background: transparent;
+	padding-bottom: 33.25%;
+	margin: 0;
+	box-shadow: none;
+	background: transparent;
 }
 
 
 /*////////////global-nav/////////////////*/
 .global-nav {
-    height: 135px;
+	height: 135px;
 }
 .nav-holder .nav-block  {
-    width: 33.333%;
-    height: 135px;
-    float: left;
-    text-align: center;
-    padding-top: 58px;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-    background: rgba(214, 211, 211, 0.12);
+	width: 33.333%;
+	height: 135px;
+	float: left;
+	text-align: center;
+	padding-top: 58px;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	background: rgba(214, 211, 211, 0.12);
 }
 .nav-holder.style4 .nav-block {
-    width: 25%;
+	width: 25%;
 }
 .nav-holder.style5 .nav-block {
-    width: 20%;
+	width: 20%;
 }
 .nav-holder .nav-block span {
-    text-decoration: none;
-    color: #202020;
-    font-family: "Segoe UI";
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1px;
+	text-decoration: none;
+	color: #202020;
+	font-family: "Segoe UI";
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1px;
 }
 .nav-holder .nav-block.active,
 .nav-holder .nav-block:hover  {
-    background: #ecebeb;
-    -webkit-transition: all .2s;
-    -o-transition: all .2s;
-    transition: all .2s;
+	background: #ecebeb;
+	-webkit-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
 }
 
 
 /* /////////////product-item///////////// */
 .product-item {
-    margin-top: 100px;
-    padding-bottom: 80px;
+	margin-top: 100px;
+	padding-bottom: 80px;
 }
 .mini-galery-holder {
-    text-align: center;
+	text-align: center;
 
 }
 .product-item .mini-galery-holder .image-holder.sm  {
-    width: 140px;
-    height: 120px;
-    display: inline-block;
+	width: 140px;
+	height: 120px;
+	display: inline-block;
 }
 .product-item .bott-holder {
-    margin: -10px;
-    margin-top: 29px;
+	margin: -10px;
+	margin-top: 29px;
 }
 .product-item .bott-holder .image-holder {
-    margin: 7px;
+	margin: 7px;
 }
 .product-item .desc-holder h3 {
-    color: #575656;
-    font-family: "Segoe UI";
-    font-size: 24px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-top: -5px;
+	color: #575656;
+	font-family: "Segoe UI";
+	font-size: 24px;
+	font-weight: 400;
+	margin-top: 0;
+	margin-top: -5px;
 }
 .product-item .desc-holder.mb-vs {
-    display: none;
+	display: none;
 }
 .product-item .desc-holder hr {
-    margin-top: 15px;
-    border-color: black;
+	margin-top: 15px;
+	border-color: black;
 }
 .product-item .desc-holder p {
-    line-height: 23px;
-    margin-bottom: 45px;
+	line-height: 23px;
+	margin-bottom: 45px;
 }
 .product-item .desc-holder .characteristics {
-    color: #575656;
-    font-family: "Segoe UI";
-    font-size: 16px;
+	color: #575656;
+	font-family: "Segoe UI";
+	font-size: 16px;
 }
 .product-item .desc-holder .price-holder {
-    color: #575656;
-    font-family: "Segoe UI";
-    font-size: 24px;
-    font-weight: 400;
-    margin-top: 26px;
+	color: #575656;
+	font-family: "Segoe UI";
+	font-size: 24px;
+	font-weight: 400;
+	margin-top: 26px;
 }
 .product-item .btn-holder {
-    display: inline-block;
-    border: 1px solid #4b4a4a;
-    padding: 8px;
-    margin-top: 38px;
-    text-align: center;
-    width: 122px;
-    outline: none;
+	display: inline-block;
+	border: 1px solid #4b4a4a;
+	padding: 8px;
+	margin-top: 38px;
+	text-align: center;
+	width: 122px;
+	outline: none;
 }
 .product-item .btn-holder:hover,
 .product-item a:focus {
-    color: black;
-    border-color: black;
-    outline: none;
+	color: black;
+	border-color: black;
+	outline: none;
 }
 
 /*//////////condition/////////////////*/
 .condition p {
-    color: #5c5b5b;
-    font-family: "Segoe UI";
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-    margin-top: 20px;
+	color: #5c5b5b;
+	font-family: "Segoe UI";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	margin-top: 20px;
 }
 
 
 .soc_buttons {
-    position: absolute;
-    right: 0;
-    top: 152px;
-    width: 70px;
+	position: absolute;
+	right: 0;
+	top: 152px;
+	width: 70px;
 }
 
 .soc_buttons a {
-    display: block;
-    position: relative;
+	display: block;
+	position: relative;
 }
 .soc_buttons a img {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
 #scrollup {
-    text-align: center;
-    position: fixed; 
-    opacity: 0.8; 
-    padding: 15px 10px 10px;
-    border-radius: 5px; 
-    left: 10px; 
-    bottom: 10px;
-    display: none;
-    cursor: pointer;
-    margin-bottom: 80px;
+	text-align: center;
+	position: fixed; 
+	opacity: 0.8; 
+	padding: 15px 10px 10px;
+	border-radius: 5px; 
+	left: 10px; 
+	bottom: 10px;
+	display: none;
+	cursor: pointer;
+	margin-bottom: 80px;
 }
 
 .modal-content {
-    border-radius: 0;
-    padding: 45px 60px;
-    border-color: #8c8b8b;
-    position: relative;
+	border-radius: 0;
+	padding: 45px 60px;
+	border-color: #8c8b8b;
+	position: relative;
 }
 .modal-content button.send {
-    background: transparent;
-    border: 1px solid black;
-    padding: 7px;
-    width: 100px;
-    text-align: center;
-    margin: 0 auto;
-    display: block;
+	background: transparent;
+	border: 1px solid black;
+	padding: 7px;
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
 }
 .modal-content .modal-header,
 .modal-content .modal-footer {
-    border: none;
+	border: none;
 }
 .modal-content input {
-    padding-left: 15px;
-    height: 45px;
-    width: 100%;
-    margin-bottom: 10px;
+	padding-left: 15px;
+	height: 45px;
+	width: 100%;
+	margin-bottom: 10px;
 }
 .modal-content .form-group.agree {
-    padding-left: 40px;
-    position: relative;
+	padding-left: 40px;
+	position: relative;
 }
 .modal-content .form-group.agree input {
-    background: transparent;
-    width: 18px;
-    outline: none;
-    display: inline-block;
-    position: absolute;
-    left: 5px;
-    top: 0px;
-    height: 25px;
+	background: transparent;
+	width: 18px;
+	outline: none;
+	display: inline-block;
+	position: absolute;
+	left: 5px;
+	top: 0px;
+	height: 25px;
 }
 .modal-content .form-group.agree label {
-    color: #5c5b5b;
-    font-family: "Segoe UI";
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 24px;
-    display: inline-block;
-    width: auto;
+	color: #5c5b5b;
+	font-family: "Segoe UI";
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	display: inline-block;
+	width: auto;
 }
 .finish-plank {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 549px;
-    width: 100%;
-    background: #fff;
-    margin-top: 82px;
-    text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 549px;
+	width: 100%;
+	background: #fff;
+	margin-top: 82px;
+	text-align: center;
 }
 .finish-plank .image-holder {
-    width: 154px;
-    height: 57px;
-    display: inline-block;
+	width: 154px;
+	height: 57px;
+	display: inline-block;
 }
 .finish-plank .text-holder {
-    color: #5c5b5b;
-    font-family: "Segoe UI";
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 24px;
-    font-variant: small-caps;
-    width: 220px;
-    margin: 0 auto;
-    text-align: left;
-    margin-top: 44px;
+	color: #5c5b5b;
+	font-family: "Segoe UI";
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 24px;
+	font-variant: small-caps;
+	width: 220px;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 44px;
 }
 
 .main-page-slider .bx-viewport {
-    left: 0;
-    border: 0;
+	left: 0;
+	border: 0;
 }
 .main-page-slider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
 }
 .main-page-slider .bxslider li .image-holder {
-    background: url(../img/content/main-bg-1.jpg) no-repeat 50% 80%;
-    background-size: cover;
-    display: block;
-    width: 100%;
-    height: 670px;
+	background: url(../img/content/main-bg-1.jpg) no-repeat 50% 80%;
+	background-size: cover;
+	display: block;
+	width: 100%;
+	height: 670px;
 }
 .main-page-slider .bx-pager .bx-default-pager,
 .main-page-slider .bx-controls-direction {
-    display: none;
+	display: none;
 }
