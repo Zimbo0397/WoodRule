@@ -299,8 +299,9 @@ a {
     margin: 10px;
     position: relative;
 } 
-.adaptive-blocks .blocks-wraper {
-
+.adaptive-blocks .blocks-wraper .blocks-holder {
+    overflow: hidden;
+    max-height: 420px;
 }
 .adaptive-blocks .ad-block.sm {
     width: 220px;
@@ -490,6 +491,7 @@ a {
 }
 .vodeo-section .blueimp-gallery-carousel {
     box-shadow: none;
+    margin: 0;
 }
 .vodeo-section .desc-holder h3 {
     color: #575656;
@@ -579,6 +581,13 @@ a {
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
+    background: rgba(214, 211, 211, 0.12);
+}
+.nav-holder.style4 .nav-block {
+    width: 25%;
+}
+.nav-holder.style5 .nav-block {
+    width: 20%;
 }
 .nav-holder .nav-block span {
     text-decoration: none;
@@ -798,4 +807,8 @@ a {
     display: block;
     width: 100%;
     height: 670px;
+}
+.main-page-slider .bx-pager .bx-default-pager,
+.main-page-slider .bx-controls-direction {
+    display: none;
 }

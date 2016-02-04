@@ -54,28 +54,28 @@
                             <div class="main-nav">
                                 <ul>
                                     <li>
-                                        <a href="">
+                                        <a href="index.html">
                                             <span>
                                             Главная</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href=""><span>
+                                        <a href="#anch1"><span>
                                             О нас</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href=""><span>
+                                        <a href="#prods"><span>
                                             Продукция</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href=""><span>
+                                        <a href="#plant"><span>
                                             Производство</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href=""><span>
+                                        <a href="#anch2"><span>
                                             Контакты</span>
                                         </a>
                                     </li>
@@ -137,7 +137,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>О нас</h1>
+                        <h1 id="anch1">О нас</h1>
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Наша продукция</h1>
+                        <h1 id="prods">Наша продукция</h1>
                     </div>
                 </div>
             </div>
@@ -247,7 +247,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Производство</h1>
+                        <h1 id="plant">Производство</h1>
                     </div>
                 </div>
             </div>
@@ -291,7 +291,7 @@
                 <div class="row">
                     <div id="links">
                         <div class="blocks-wraper">
-                            <div class="blocks-holder">
+                            <div class="blocks-holder clearfix">
                                <a href="img/content/layer-19.jpg"> 
                                     <div class="ad-block ms-item lg-v">
                                        <div class="image-holder">
@@ -439,7 +439,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Контакты</h1>
+                        <h1 id="anch2">Контакты</h1>
                     </div>
                 </div>
             </div>
@@ -530,7 +530,7 @@
 
             jQuery( document ).ready(function() {
                 jQuery('#scrollup').mouseover( function(){
-                    jQuery( this ).animate({opacity: 0.65},100);
+                    jQuery( this ).animate({opacity: 100},100);
                 }).mouseout( function(){
                     jQuery( this ).animate({opacity: 1},100);
                 }).click( function(){

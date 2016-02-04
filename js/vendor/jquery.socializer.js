@@ -17,7 +17,7 @@
            
 		   position: 'right',
            
-           opacity: 0.1,
+           opacity: 1,
            
            container: document,
 

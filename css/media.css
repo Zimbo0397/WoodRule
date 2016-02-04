@@ -32,6 +32,12 @@
 	}
 }
 @media (max-width: 991px) {
+	.nav-holder .nav-block {
+		padding-top: 48px;
+	}
+	.adaptive-blocks .blocks-wraper .blocks-holder {
+	    max-height: 840px;
+	}
 	.soc_buttons {
 		display: none;
 	}
@@ -126,6 +132,11 @@
 	}
 }
 @media (max-width: 767px) {
+	.nav-holder .nav-block,
+	.nav-holder.style4 .nav-block,
+	.nav-holder.style5 .nav-block {
+		width: 100%;
+	}
 	.vodeo-section {
 		margin-top: 80px;
 	}
@@ -258,15 +269,15 @@
 		width: 100%;
     	height: auto;
 	}
-	.nav-holder .nav-block span {
+/*	.nav-holder .nav-block span {
 		font-size: 13px;
-	}
+	}*/
 	.nav-holder .nav-block {
 		height: 75px;
-		padding-top: 15px;
+		padding-top: 25px;
 	}
 	.global-nav {
-		height: 75px;
+		height: auto;
 	}
 	.adaptive-blocks .ad-block {
 		margin: 0;
