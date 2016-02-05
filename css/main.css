@@ -127,13 +127,17 @@ a {
 	margin-left: 8px;
 }
 .social-list.main {
-	margin-top: 165px;
+	/*margin-top: 165px;*/
 	margin-right: -5px;
+    position: absolute;
+    bottom: -155px;
+    right: 48px;
 }
 .social-list.main li img {
 	-webkit-transition: opacity .3s;
 	-o-transition: opacity .3s;
 	transition: opacity .3s;
+    width: 80%;
 }
 .social-list.main li:first-child img {
 	margin-top: 3px;
@@ -204,7 +208,7 @@ a {
 	line-height: 24px;
 	margin-bottom: 22px;
 } 
-.about-us .btn-holder.gen {
+.btn-holder.gen {
 	border: 1px solid #575656;
 	padding: 6px;
 	padding-left: 15px;
@@ -214,6 +218,9 @@ a {
 	font-family: "Segoe UI";
 	font-size: 18px;
 	font-weight: 300;
+    display: inline-block;
+}
+.about-us .btn-holder.gen {
 	display: none;
 	cursor: pointer;
 }
@@ -568,6 +575,7 @@ a {
 }
 .main-carousel .blueimp-gallery>.slides>.slide>.slide-content {
 	width: 100%;
+    max-height: inherit;
 }
 .main-carousel .blueimp-gallery-carousel .slides .slide {
 	height: 100%;
