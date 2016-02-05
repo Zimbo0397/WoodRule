@@ -190,6 +190,7 @@
 	}
 	.social-list.main {
 	    position: absolute;
+	    width: 182px;
 	    top: 20px;
 	    left: 50%;
 	    -webkit-transform: translateX(-50%);
@@ -258,6 +259,9 @@
 	}
 }
 @media (max-width: 505px) {
+	.social-list.main {
+		width: 155px;
+	}
 	.blueimp-gallery>.indicator>li {
 	    width: 20px;
 	    height: 20px;
