@@ -759,6 +759,9 @@ a {
 	width: 100%;
 	margin-bottom: 10px;
 }
+.modal-content label {
+	color: red;
+}
 .modal-content .form-group.agree {
 	padding-left: 40px;
 	position: relative;
