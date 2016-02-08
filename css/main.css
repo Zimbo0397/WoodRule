@@ -859,9 +859,11 @@ a {
 } 
 #myform .form-group span {
 	color: #A9A9A9;
+	display: none;
 }
 #myform input.error ~ span {
 	color: #F15F5F;
+	display: inline-block;
 }
 #myform .modal-header .close {
 	margin-top: -18px;

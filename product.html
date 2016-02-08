@@ -515,25 +515,28 @@
                           <div class="modal-body">
                             <div class="form-group">
                                 <div class="holder">
-                                    <input type="text" placeholder="Фамилия">
+                                    <input type="text" name="lastname" placeholder="Фамилия">
+                                    <span>Заполните пожалуйста поле</span>
                                 </div>
                                 <div class="holder">
                                     <input type="text" name="name"placeholder="Имя:">
-                                    <span>Введите пожалуйста Имя</span>
+                                    <span>Заполните пожалуйста поле</span>
                                 </div>
                                 <div class="holder">
                                     <input type="text" name="phone">
-                                    <span>Формат номера +380</span>
+                                    <span>Формат номера 380</span>
                                 </div>
                                 <div class="holder">
                                     <input type="text" name="email" placeholder="E-mail:">
-                                    <span>Введите пожалуйста E-mail:</span>
+                                    <span>Укажите пожалуйста E-mail</span>
                                 </div>
                                 <div class="holder">
-                                    <input type="text" placeholder="Страна:">
+                                    <input type="text" name="country" placeholder="Страна:">
+                                    <span>Заполните пожалуйста поле</span>
                                 </div>
                                 <div class="holder">
-                                    <input type="text" placeholder="Город:">
+                                    <input type="text" name="city" placeholder="Город:">
+                                    <span>Заполните пожалуйста поле</span>
                                 </div>
                             </div>
 
@@ -584,6 +587,18 @@
                 email: {
                   required: true,
                   email: true
+                },
+                lastname: {
+                  required: true,
+                  minlength: 1
+                },
+                country: {
+                  required: true,
+                  minlength: 1
+                },
+                city: {
+                  required: true,
+                  minlength: 1
                 },
                 name: {
                   required: true,
