@@ -865,6 +865,13 @@ a {
 	color: #F15F5F;
 	display: inline-block;
 }
+#myform .agree-msg {
+	display: none;
+}
+#myform input.error ~ .agree-msg {
+	display: inline-block;
+	color: red;
+}
 #myform .modal-header .close {
 	margin-top: -18px;
 }

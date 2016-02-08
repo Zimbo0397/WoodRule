@@ -543,8 +543,10 @@
                             <br/>
                           </div>
                           <div class="form-group agree">
-                                <input type="checkbox" checked>
+                                <input type="checkbox" class="checkbox" id="agree" name="agree" required>
+                                <div id="tyor8"></div>
                                 <label for="">Я согласен обработка персональных данных без использования средств автоматизации </label>
+                                <div class="agree-msg">Подтвердите пожалуйста согласие</div>
                           </div>
                           <div class="modal-footer">
                             <button class='send' type="submit" value="Validate!" >Отправть</button>
@@ -607,6 +609,19 @@
               }
             });
 </script>
+
+// <script>
+    // $(document).ready(function() {
+    //     $("#form1").validate();
+    //     $("#selecttest").validate();
+    // });
+//     function countUnchecked() {
+//       var n = $( " .form-group.agree input:unchecked" ).length;
+//       $( "#tyor8" ).text(n + (n == 1 ? " is" : " are") + " unchecked!" );
+//     }
+//     countUnchecked();
+//     $( ":checkbox" ).click( countUnchecked );
+// </script>
 
     </body>
 </html>
