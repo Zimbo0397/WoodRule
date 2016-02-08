@@ -71,10 +71,6 @@
 	.adaptive-blocks .blocks-wraper {
 		text-align: center;
 	}
-	.adaptive-blocks .ad-block.ms-item.lg-v .image-holder img {
-		width: 100%;
-		height: auto;
-	}
 	.adaptive-blocks .ad-block.ms-item.sm,
 	.adaptive-blocks .ad-block.ms-item.lg-v,
 	.adaptive-blocks .ad-block.ms-item.lg-g {
@@ -234,6 +230,9 @@
 	}
 }
 @media (max-width: 600px) {
+	#myform .modal-header .close {
+		margin-top: 0;
+	}
 	.full-lits.text .plit {
 		height: 350px;
 	}
@@ -259,6 +258,10 @@
 	}
 }
 @media (max-width: 505px) {
+	.adaptive-blocks .ad-block.lg-v  .image-holder img {
+		height: auto;
+		width: 100%;
+	} 
 	.social-list.main {
 		width: 155px;
 	}

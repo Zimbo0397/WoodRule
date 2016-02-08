@@ -514,18 +514,33 @@
                           </div>
                           <div class="modal-body">
                             <div class="form-group">
-                                <input type="text" placeholder="Фамилия">
-                                <input type="text" name="name"placeholder="Имя:">
-                                <input type="text" name="phone" placeholder="093">
-                                <input type="text" name="email" placeholder="E-mail:">
-                                <input type="text" placeholder="Страна:">
-                                <input type="text" placeholder="Город:">
+                                <div class="holder">
+                                    <input type="text" placeholder="Фамилия">
+                                </div>
+                                <div class="holder">
+                                    <input type="text" name="name"placeholder="Имя:">
+                                    <span>Введите пожалуйста Имя</span>
+                                </div>
+                                <div class="holder">
+                                    <input type="text" name="phone">
+                                    <span>Формат номера +380</span>
+                                </div>
+                                <div class="holder">
+                                    <input type="text" name="email" placeholder="E-mail:">
+                                    <span>Введите пожалуйста E-mail:</span>
+                                </div>
+                                <div class="holder">
+                                    <input type="text" placeholder="Страна:">
+                                </div>
+                                <div class="holder">
+                                    <input type="text" placeholder="Город:">
+                                </div>
                             </div>
 
                             <br/>
                           </div>
                           <div class="form-group agree">
-                                <input type="checkbox">
+                                <input type="checkbox" checked>
                                 <label for="">Я согласен обработка персональных данных без использования средств автоматизации </label>
                           </div>
                           <div class="modal-footer">
