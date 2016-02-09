@@ -23,9 +23,9 @@
 
 		   inittop: 150, 
 		   
-		   scrolltop: 20,
+		   scrolltop: 0,
 		   
-		   speed: 300,
+		   speed: 0,
 		   
 		   hoverdistance: 15,
            

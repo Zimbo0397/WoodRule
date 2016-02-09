@@ -128,6 +128,13 @@
 	}
 }
 @media (max-width: 767px) {
+	#scrollup i {
+	    display: inline-block;
+	}
+	#scrollup p,
+	#scrollup img {
+		display: none;
+	}
 	.nav-holder .nav-block,
 	.nav-holder.style4 .nav-block,
 	.nav-holder.style5 .nav-block {

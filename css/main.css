@@ -743,6 +743,11 @@ a {
 	cursor: pointer;
 	margin-bottom: 80px;
 }
+#scrollup i {
+    font-size: 40px;
+    opacity: .1;
+    display: none;
+}
 
 .modal-content {
 	border-radius: 0;
