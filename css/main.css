@@ -208,6 +208,9 @@ a {
 /*.desc-holder.gen.h {
 	height: 300px;
 }*/
+.desc-holder.gen.bott {
+	padding-left: 0;
+}
 .desc-holder.gen p {
 	line-height: 24px;
 	margin-bottom: 0px;
@@ -887,4 +890,7 @@ a {
 }
 #myform .modal-header .close {
 	margin-top: -18px;
+}
+.foto-hidden {
+	display: none;
 }
