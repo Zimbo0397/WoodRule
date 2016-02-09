@@ -258,7 +258,7 @@ a {
 }
 .full-lits .plit {
 	float: left;
-	height: 315px;
+	height: 415px;
 }
 .full-lits .plit.img {
 	width: 62.5%;
@@ -555,7 +555,6 @@ a {
 }
 .top-line .line-nav-list {
 	margin-top: 29px;
-	margin-left: 25px;
 }
 .top-line .line-nav-list li {
 	margin-left: 39px;
