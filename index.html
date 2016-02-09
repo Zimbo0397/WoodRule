@@ -566,6 +566,7 @@
         <script>
             $(window).on('load', function() {
                 $('.desc-holder.gen.sc').each( function () {
+                    console.log($(this).height())
                     if ($(this).height() > 290) {
                         $(this).find('.btn-holder.gen').addClass('active');
                     }

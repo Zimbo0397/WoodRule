@@ -210,7 +210,7 @@ a {
 }*/
 .desc-holder.gen p {
 	line-height: 24px;
-	margin-bottom: 22px;
+	margin-bottom: 0px;
 } 
 .btn-holder.gen {
 	border: 1px solid #575656;
@@ -223,8 +223,9 @@ a {
 	font-size: 18px;
 	font-weight: 300;
     display: inline-block;
+    cursor: pointer;
 }
-.about-us .btn-holder.gen.sc {
+.about-us .desc-holder.gen.sc .btn-holder.gen {
 	display: none;
 	cursor: pointer;
 }
@@ -237,7 +238,7 @@ a {
 	-webkit-transition: max-height .8s;
 	transition: max-height .8s;
 }
-.about-us .desc-holder.gen .btn-holder.gen.active {
+.about-us .desc-holder.gen.sc .btn-holder.gen.active {
 	display: inline-block;
 	position: absolute;
 	bottom: 0;
@@ -320,8 +321,13 @@ a {
 .adaptive-blocks {
 	margin-top: 100px;
 }
-.adaptive-blocks .ad-block {
+.adaptive-blocks a {
+	display: block;
 	float: left;
+}
+.adaptive-blocks .ad-block {
+	/*float: left;*/
+	pointer-events: none;
 	margin: 10px;
 	position: relative;
 } 
@@ -369,7 +375,7 @@ a {
 	-o-transition: opacity .5s;
 	transition: opacity .5s;
 }
-.adaptive-blocks .ad-block:hover .content-holder .blackoute {
+.adaptive-blocks a:hover .ad-block .content-holder .blackoute {
 	opacity: 0.4;
 }
 .adaptive-blocks .ad-block .content-holder .bordered {
@@ -383,7 +389,7 @@ a {
 	-o-transition: opacity .5s;
 	transition: opacity .5s;
 }
-.adaptive-blocks .ad-block:hover .content-holder .bordered {
+.adaptive-blocks a:hover .ad-block .content-holder .bordered {
 	opacity: 1;
 }
 .adaptive-blocks .ad-block .content-holder .bordered .h-holder {
