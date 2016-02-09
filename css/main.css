@@ -205,6 +205,9 @@ a {
 	padding-left: 60px;
 	padding-bottom: 60px;
 }
+/*.desc-holder.gen.h {
+	height: 300px;
+}*/
 .desc-holder.gen p {
 	line-height: 24px;
 	margin-bottom: 22px;
@@ -221,7 +224,7 @@ a {
 	font-weight: 300;
     display: inline-block;
 }
-.about-us .btn-holder.gen {
+.about-us .btn-holder.gen.sc {
 	display: none;
 	cursor: pointer;
 }
