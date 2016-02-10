@@ -26,9 +26,10 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-3">
                         <div class="top-line-logo">
-                            <div class="image-holder">
-                                <img src="img/icons/main-logo.png" alt="">
-                            </div>
+                            <a href="#"><div class="image-holder">
+                                    <img src="img/icons/main-logo.png" alt="">
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-9 col-sm-9 padd-cncl">
@@ -495,6 +496,32 @@
                         Copyright 2016 <span class="color-w">Wood Rule</span>
                     </span>
                 </div>
+                <div class="row">
+                    <div class="social-list main">
+                        <ul class="list-inline">
+                            <li>
+                                <a target="blank" href="">
+                                    <div class="image-holder mail"><img src="img/icons/main-icon.png"></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="blank" href="">
+                                    <div class="image-holder youtube"><img src="img/icons/youtube.png"></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="blank" href="">
+                                   <div class="image-holder insta"> <img src="img/icons/insta-icon.png"></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="blank" href="">
+                                    <div class="image-holder face"><img src="img/icons/facebook.png"></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -527,7 +554,7 @@
                                     <span>Заполните пожалуйста поле</span>
                                 </div>
                                 <div class="holder">
-                                    <input type="text" name="phone">
+                                    <input type="text" placeholder="380" name="phone">
                                     <span>Формат номера 380</span>
                                 </div>
                                 <div class="holder">
@@ -539,7 +566,7 @@
                                     <span>Заполните пожалуйста поле</span>
                                 </div>
                                 <div class="holder">
-                                    <input type="text" name="city" placeholder="Город:">
+                                    <input type="text" name="city" placeholder="Город">
                                     <span>Заполните пожалуйста поле</span>
                                 </div>
                             </div>
@@ -547,12 +574,13 @@
                             <br/>
                           </div>
                           <div class="form-group agree">
-                                <input type="checkbox" class="checkbox" id="agree" checked>
+                                <input type="checkbox" name="agree" class="checkbox" id="agree" checked>
                                 <div id="tyor8"></div>
                                 <label for="">Я согласен обработка персональных данных без использования средств автоматизации </label>
+                                <span class="agree-msg">Подтвердите пожалуйста согласие</span>
                           </div>
                           <div class="modal-footer">
-                            <button class='send' type="submit" value="Validate!" >Отправть</button>
+                            <button class='send' type="submit" value="Validate!" >Отправить</button>
                             <div class="finish-plank">
                                 <div class="image-holder">
                                     <img src="img/icons/main-logo.png" alt="">
@@ -608,23 +636,15 @@
                 name: {
                   required: true,
                   minlength: 1
+                },
+                agree: {
+                  required: true,
+                  minlength: 1
                 }
               }
             });
 </script>
 
-// <script>
-    // $(document).ready(function() {
-    //     $("#form1").validate();
-    //     $("#selecttest").validate();
-    // });
-//     function countUnchecked() {
-//       var n = $( " .form-group.agree input:unchecked" ).length;
-//       $( "#tyor8" ).text(n + (n == 1 ? " is" : " are") + " unchecked!" );
-//     }
-//     countUnchecked();
-//     $( ":checkbox" ).click( countUnchecked );
-// </script>
 
     </body>
 </html>

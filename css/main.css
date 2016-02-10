@@ -3,20 +3,20 @@
 /*////////////Global/////////////////*/
 h1 {
 	color: #5c5b5b;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 36px;
 	font-weight: 300;
 	text-align: center;
 }
 h2 {
 	color: #575656;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 24px;
 	font-weight: 500;
 }
 p {
 	color: #5d5d5d;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -67,7 +67,7 @@ a {
 }
 .top-lang-nav li a {
 	color: black;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 16px;
 	font-weight: 600;
 	font-variant: small-caps;
@@ -99,7 +99,7 @@ a {
 } 
 .main-nav li a {
 	color: #202020;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 20px;
 	font-weight: 500;
 	position: relative;
@@ -127,17 +127,36 @@ a {
 	margin-left: 8px;
 }
 .social-list.main {
-	/*margin-top: 165px;*/
 	margin-right: -5px;
     position: absolute;
     bottom: 55px;
     right: 48px;
 }
+.social-list.main.mb-vs {
+	display: none;
+}
+.social-list.main li .image-holder {
+	height: 31px;
+	width: 22px;
+	position: relative;
+}
+.social-list.main li .image-holder.mail {
+	bottom: 1px;
+}
+.social-list.main li .image-holder.youtube {
+	bottom: 3px;
+}
+.social-list.main li .image-holder.insta {
+	bottom: 1px;
+}
+.social-list.main li .image-holder.face {
+    width: 11px;
+    bottom: 2px;
+}
 .social-list.main li img {
 	-webkit-transition: opacity .3s;
 	-o-transition: opacity .3s;
 	transition: opacity .3s;
-    width: 80%;
 }
 .social-list.main li:first-child img {
 	margin-top: 3px;
@@ -167,7 +186,7 @@ a {
 }
 .main-name h3 {
 	color: #333;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 24px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -176,7 +195,7 @@ a {
 .main-name h1 {
 	text-shadow: 0 3px 7px transparent;
 	color: #333;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 72px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -222,7 +241,7 @@ a {
 	padding-right: 15px;
 	margin-top: 20px;
 	color: #575656;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 18px;
 	font-weight: 300;
     display: inline-block;
@@ -275,6 +294,9 @@ a {
 	padding-top: 18px;
 	background: #fbf8f8;
 }
+.full-lits .plit.url.rt.mb-vs {
+	display: none;
+}
 .full-lits .plit.url.rt {
 	padding-right: 135px;
 	padding-left: 17px;
@@ -292,14 +314,16 @@ a {
 }
 .full-lits .plit.url h2 {
 	color: #575656;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 25px;
 	font-weight: 400;
 	text-align: center;
+	max-height: 54px;
+	overflow: hidden;
 }
 .full-lits .plit.url h3 {
 	color: #575656;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 24px;
 	font-weight: 300;
 	margin-top: 0;
@@ -400,7 +424,7 @@ a {
 }
 .adaptive-blocks .ad-block .content-holder .bordered h1 {
 	color: white;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 24px;
@@ -409,7 +433,7 @@ a {
 }
 .adaptive-blocks .ad-block .content-holder .bordered h2 {
 	color: white;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 24px;
@@ -425,7 +449,7 @@ a {
 }
 .adaptive-blocks .ad-block .content-holder .bordered .btn-holder {
 	color: white;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 24px;
@@ -457,7 +481,7 @@ a {
 .location .contacts-list {
 	padding-left: 42px;
 	color: #515050;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 18px;
 	margin-top: -5px;
 	font-weight: 300;
@@ -468,28 +492,36 @@ a {
 
 /*/////////////footer//////////////////*/
 .footer {
-	background: #aaa8a8;
-	text-align: center;
-	padding-top: 30px;
-	margin-top: 155px;
-	height: 80px;
+    background: #aaa8a8;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 155px;
+    padding-bottom: 30px;
+    position: relative;
 }
 .footer span {
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 16px;
 	font-weight: 500;
 }
 .footer span.color-w {
 	color: white;
 }
-
-
-
+.footer .social-list.main {
+		position: relative;
+}
+.footer .social-list.main {
+	display: none;
+}
 /*///////////////////blueimp-gallery custom/////////////////////*/
 .blueimp-gallery>.indicator>li {
-	width: 150px;
-	height: 150px;
+	width: 50px;
+	height: 50px;
 	border-radius: 0;
+}
+.blueimp-gallery>.indicator {
+    max-height: 164px;
+    overflow: hidden;
 }
 #blueimpPrev,
 #blueimpNext {
@@ -534,7 +566,7 @@ a {
 }
 .vodeo-section .desc-holder h3 {
 	color: #575656;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 20px;
 	font-weight: 400;
 	margin-top: 13px;
@@ -564,7 +596,7 @@ a {
 }
 .top-line .line-nav-list li a {
 	color: #202020;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 20px;
 	font-weight: 300;
 	position: relative;
@@ -631,7 +663,7 @@ a {
 .nav-holder .nav-block span {
 	text-decoration: none;
 	color: #202020;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 1px;
@@ -668,7 +700,7 @@ a {
 }
 .product-item .desc-holder h3 {
 	color: #575656;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 24px;
 	font-weight: 400;
 	margin-top: 0;
@@ -687,12 +719,12 @@ a {
 }
 .product-item .desc-holder .characteristics {
 	color: #575656;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 16px;
 }
 .product-item .desc-holder .price-holder {
 	color: #575656;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 24px;
 	font-weight: 400;
 	margin-top: 26px;
@@ -716,7 +748,7 @@ a {
 /*//////////condition/////////////////*/
 .condition p {
 	color: #5c5b5b;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 24px;
@@ -804,7 +836,7 @@ a {
 }
 .modal-content .form-group.agree label {
 	color: #5c5b5b;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 24px;
@@ -812,15 +844,8 @@ a {
 	width: auto;
 }
 .finish-plank {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 699px;
-    width: 100%;
-    background: #fff;
-    margin-top: 72px;
-    padding-top: 211px;
-    text-align: center;
+	background: #fff;
+	text-align: center;
 }
 .finish-plank .image-holder {
 	width: 154px;
@@ -829,7 +854,7 @@ a {
 }
 .finish-plank .text-holder {
 	color: #5c5b5b;
-	font-family: "Segoe UI";
+	font-family: "Segoe UI", "Sans-serif";
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 24px;
@@ -881,9 +906,9 @@ a {
 	color: #F15F5F;
 	display: inline-block;
 }
-#myform .agree-msg {
+/*#myform .agree-msg {
 	display: none;
-}
+}*/
 #myform input.error ~ .agree-msg {
 	display: inline-block;
 	color: red;
