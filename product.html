@@ -535,65 +535,119 @@
                 <ol class="indicator"></ol>
             </div>
 
+<div id="forms">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form class="myform">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img src="img/icons/cross-btn.png" alt=""></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="form-group">
+                        <div class="holder">
+                            <input type="text" name="lastname" placeholder="Фамилия">
+                            <span>Заполните пожалуйста поле</span>
+                        </div>
+                        <div class="holder">
+                            <input type="text" name="name"placeholder="Имя:">
+                            <span>Заполните пожалуйста поле</span>
+                        </div>
+                        <div class="holder">
+                            <input type="text" placeholder="380" name="phone">
+                            <span>Формат номера 380</span>
+                        </div>
+                        <div class="holder">
+                            <input type="text" name="email" placeholder="E-mail:">
+                            <span>Укажите пожалуйста E-mail</span>
+                        </div>
+                        <div class="holder">
+                            <input type="text" name="country" placeholder="Страна:">
+                            <span>Заполните пожалуйста поле</span>
+                        </div>
+                        <div class="holder">
+                            <input type="text" name="city" placeholder="Город">
+                            <span>Заполните пожалуйста поле</span>
+                        </div>
+                    </div>
 
-            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <form id="myform">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img src="img/icons/cross-btn.png" alt=""></button>
-                          </div>
-                          <div class="modal-body">
-                            <div class="form-group">
-                                <div class="holder">
-                                    <input type="text" name="lastname" placeholder="Фамилия">
-                                    <span>Заполните пожалуйста поле</span>
-                                </div>
-                                <div class="holder">
-                                    <input type="text" name="name"placeholder="Имя:">
-                                    <span>Заполните пожалуйста поле</span>
-                                </div>
-                                <div class="holder">
-                                    <input type="text" placeholder="380" name="phone">
-                                    <span>Формат номера 380</span>
-                                </div>
-                                <div class="holder">
-                                    <input type="text" name="email" placeholder="E-mail:">
-                                    <span>Укажите пожалуйста E-mail</span>
-                                </div>
-                                <div class="holder">
-                                    <input type="text" name="country" placeholder="Страна:">
-                                    <span>Заполните пожалуйста поле</span>
-                                </div>
-                                <div class="holder">
-                                    <input type="text" name="city" placeholder="Город">
-                                    <span>Заполните пожалуйста поле</span>
-                                </div>
-                            </div>
+                    <br/>
+                  </div>
+                  <div class="form-group agree">
+                        <input type="checkbox" name="agree" class="checkbox" id="agree" checked>
+                        <div id="tyor8"></div>
+                        <label for="">Я согласен обработка персональных данных без использования средств автоматизации </label>
+                        <span class="agree-msg">Подтвердите пожалуйста согласие</span>
+                  </div>
+                  <div class="modal-footer">
+                    <button class='send' type="submit" value="Validate!" >Отправить</button>
+                    <div class="finish-plank">
+                        <div class="image-holder">
+                            <img src="img/icons/main-logo.png" alt="">
+                        </div>
+                        <div class="text-holder">
+                            Спасибо за Ваш заказ, в ближайшее время с Вами свяжется наш менеджер
+                        </div>
+                    </div>
+                  </div>
+            </form>
+            <form class="myform">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img src="img/icons/cross-btn.png" alt=""></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="form-group">
+                        <div class="holder">
+                            <input type="text" name="lastname" placeholder="Фамилия">
+                            <span>Заполните пожалуйста поле</span>
+                        </div>
+                        <div class="holder">
+                            <input type="text" name="name"placeholder="Имя:">
+                            <span>Заполните пожалуйста поле</span>
+                        </div>
+                        <div class="holder">
+                            <input type="text" placeholder="380" name="phone">
+                            <span>Формат номера 380</span>
+                        </div>
+                        <div class="holder">
+                            <input type="text" name="email" placeholder="E-mail:">
+                            <span>Укажите пожалуйста E-mail</span>
+                        </div>
+                        <div class="holder">
+                            <input type="text" name="country" placeholder="Страна:">
+                            <span>Заполните пожалуйста поле</span>
+                        </div>
+                        <div class="holder">
+                            <input type="text" name="city" placeholder="Город">
+                            <span>Заполните пожалуйста поле</span>
+                        </div>
+                    </div>
 
-                            <br/>
-                          </div>
-                          <div class="form-group agree">
-                                <input type="checkbox" name="agree" class="checkbox" id="agree" checked>
-                                <div id="tyor8"></div>
-                                <label for="">Я согласен обработка персональных данных без использования средств автоматизации </label>
-                                <span class="agree-msg">Подтвердите пожалуйста согласие</span>
-                          </div>
-                          <div class="modal-footer">
-                            <button class='send' type="submit" value="Validate!" >Отправить</button>
-                            <div class="finish-plank">
-                                <div class="image-holder">
-                                    <img src="img/icons/main-logo.png" alt="">
-                                </div>
-                                <div class="text-holder">
-                                    Спасибо за Ваш заказ, в ближайшее время с Вами свяжется наш менеджер
-                                </div>
-                            </div>
-                          </div>
-                    </form>
-                </div>
-              </div>
-            </div>
+                    <br/>
+                  </div>
+                  <div class="form-group agree">
+                        <input type="checkbox" name="agree" class="checkbox" id="agree" checked>
+                        <div id="tyor8"></div>
+                        <label for="">Я согласен обработка персональных данных без использования средств автоматизации </label>
+                        <span class="agree-msg">Подтвердите пожалуйста согласие</span>
+                  </div>
+                  <div class="modal-footer">
+                    <button class='send' type="submit" value="Validate!" >Отправить</button>
+                    <div class="finish-plank">
+                        <div class="image-holder">
+                            <img src="img/icons/main-logo.png" alt="">
+                        </div>
+                        <div class="text-holder">
+                            Спасибо за Ваш заказ, в ближайшее время с Вами свяжется наш менеджер
+                        </div>
+                    </div>
+                  </div>
+            </form>
+
+        </div>
+      </div>
+    </div>
+</div>
 
 
         <script src="js/vendor/jquery-2.1.4.min.js"></script>
@@ -611,38 +665,41 @@
               debug: true,
               success: "valid"
             });
-            $( "#myform" ).validate({
-              rules: {
-                phone: {
-                  required: true,
-                  number: true
-                },
-                email: {
-                  required: true,
-                  email: true
-                },
-                lastname: {
-                  required: true,
-                  minlength: 1
-                },
-                country: {
-                  required: true,
-                  minlength: 1
-                },
-                city: {
-                  required: true,
-                  minlength: 1
-                },
-                name: {
-                  required: true,
-                  minlength: 1
-                },
-                agree: {
-                  required: true,
-                  minlength: 1
-                }
-              }
+            $('.myform').each(function () {
+                $(this).validate({
+                      rules: {
+                        phone: {
+                          required: true,
+                          number: true
+                        },
+                        email: {
+                          required: true,
+                          email: true
+                        },
+                        lastname: {
+                          required: true,
+                          minlength: 1
+                        },
+                        country: {
+                          required: true,
+                          minlength: 1
+                        },
+                        city: {
+                          required: true,
+                          minlength: 1
+                        },
+                        name: {
+                          required: true,
+                          minlength: 1
+                        },
+                        agree: {
+                          required: true,
+                          minlength: 1
+                        }
+                      }
+                    });
             });
+            // $( "#myform" )
 </script>
 
 
