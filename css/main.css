@@ -892,29 +892,25 @@ a {
 
 
 /*////myform////*/
-#myform label.error {
+.myform label.error {
     display: none !important;
 }
-#myform input.error {
+.myform input.error {
 	border-color: #F15F5F;
 	outline: none; 
 } 
-#myform .form-group span {
-	color: #A9A9A9;
-	display: none;
-}
-#myform input.error ~ span {
+.myform input.error ~ span {
 	color: #F15F5F;
 	display: inline-block;
 }
-/*#myform .agree-msg {
+.myform .agree-msg {
 	display: none;
-}*/
-#myform input.error ~ .agree-msg {
+}
+.myform input.error ~ .agree-msg {
 	display: inline-block;
 	color: red;
 }
-#myform .modal-header .close {
+.myform .modal-header .close {
 	margin-top: -18px;
 }
 .foto-hidden {
