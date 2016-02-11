@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="css/media.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
+    <body id='id_blocka'>
 
         <section class="top-line">
             <div class="container">
@@ -478,43 +478,64 @@
                 </div>
             </div>
         </section>
+        <div class="soc_buttons" id="soc_buttons">
+
+            <a title="Следите за мной на twitter" target="_blank" href=""><img src="img/icons/main-icon.png" ></a>
+
+            <a title="Следите за мной на facebook" target="_blank" href=""><img src="img/icons/youtube.png"></a>
+
+            <a title="Следите за мной по RSS" target="_blank" href=""><img src="img/icons/insta-icon.png"></a>
+
+            <a title="Следите за мной по RSS" target="_blank" href=""><img src="img/icons/facebook.png"></a>
+        </div>
 
         <script>
-var videos = [
-        {
-            title: 'LES TWINS - An Industry Ahead',
-            type: 'text/html',
-            youtube: 'zi4CIXpx7Bg',
-            description: 'test 1'
-        },
-        {
-            title: 'LES TWINS - An Industry Ahead',
-            type: 'text/html',
-            youtube: 'zi4CIXpx7Bg',
-            description: 'test 2'
-        },
-        {
-            title: 'LES TWINS - An Industry Ahead',
-            type: 'text/html',
-            youtube: 'zi4CIXpx7Bg',
-            description: 'test 3'
-        },
-        {
-            title: 'LES TWINS - An Industry Ahead',
-            type: 'text/html',
-            youtube: 'zi4CIXpx7Bg',
-            description: 'test 4'
-        },
-        {
-            title: 'LES TWINS - An Industry Ahead',
-            type: 'text/html',
-            youtube: 'zi4CIXpx7Bg',
-            description: 'test 5'
-        }
-    ]
+        var videos = [
+                {
+                    title: 'LES TWINS - An Industry Ahead',
+                    type: 'text/html',
+                    youtube: 'zi4CIXpx7Bg',
+                    description: 'test 1'
+                },
+                {
+                    title: 'LES TWINS - An Industry Ahead',
+                    type: 'text/html',
+                    youtube: 'zi4CIXpx7Bg',
+                    description: 'test 2'
+                },
+                {
+                    title: 'LES TWINS - An Industry Ahead',
+                    type: 'text/html',
+                    youtube: 'zi4CIXpx7Bg',
+                    description: 'test 3'
+                },
+                {
+                    title: 'LES TWINS - An Industry Ahead',
+                    type: 'text/html',
+                    youtube: 'zi4CIXpx7Bg',
+                    description: 'test 4'
+                },
+                {
+                    title: 'LES TWINS - An Industry Ahead',
+                    type: 'text/html',
+                    youtube: 'zi4CIXpx7Bg',
+                    description: 'test 5'
+                }
+            ]
+        </script>
+        <script>
+            $(function(){
+                $('#soc_buttons').socializer({
+                    container: '#id_blocka',
+                    scrolltop: 50,
+                    inittop: 1052,
+                    hoverdistance: 0
+                });
+            });
         </script>
 
         <script src="js/vendor/jquery-2.1.4.min.js"></script>
+        <script src="js/vendor/jquery.socializer.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/vendor/jquery.blueimp-gallery.min.js"></script>
         <script src="js/vendor/demo.js"></script>
