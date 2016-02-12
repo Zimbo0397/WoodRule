@@ -61,12 +61,12 @@
                 var $this = $(this),
                     top = $this.scrollTop();
 
-                if(!isshow){
-                	opacity = top/(height - $this.height());
+                // if(!isshow){
+                // 	opacity = top/(height - $this.height());
                     
-                    if(opacity < options.opacity) opacity = options.opacity;
-                    if(opacity > 1) opacity = 1;
-                }
+                //     if(opacity < options.opacity) opacity = options.opacity;
+                //     if(opacity > 1) opacity = 1;
+                // }
             	
 
                 if(top + options.scrolltop > options.inittop){
@@ -91,47 +91,9 @@
                         self.css({top: options.inittop,position: 'absolute'});
                     }
                 }
-                
-                
-                //Устанавливаем прозрачность картинок
-                if(!isshow){
-                	
-                	if(top >= height*options.opacity){
-
-                        $('a > *',self).css('opacity',opacity);
-                    }
-                    else{
-                        
-                        $('a > *',self).css('opacity',options.opacity);
-                    }
-                }
-                
-                
-                //Выполнение пользовательской функции
-                //при прокрутке экрана до конца контейнера
-                if(opacity == 1){
-                    options.scrollend(self);
-                    isshow = true;
-                }
 
             });
 
-            $('a',self).hover(function(){
-
-                $(this).stop()
-                .animate(mouseover,options.speed)
-                .find('img')
-                .css('opacity',1);
-
-            },
-            function(){
-  
-            	$(this).stop()
-                .animate(mouseout,options.speed)
-                .find('img')
-                .css('opacity',opacity);
-                
-            });
            
         
         });
