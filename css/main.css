@@ -35,7 +35,9 @@ a {
 .image-holder img {
 	width: 100%;
 }
-
+.logo-fix {
+    margin-top: -7px;
+}
 
 
 
@@ -451,7 +453,7 @@ a {
 .adaptive-blocks .ad-block .content-holder .bordered .btn-holder {
 	color: white;
 	font-family: "Segoe UI", "Sans-serif";
-	font-size: 18px;
+	font-size: 13px;
 	font-weight: 300;
 	line-height: 24px;
 	padding: 4px;
@@ -723,6 +725,9 @@ a {
 	font-family: "Segoe UI", "Sans-serif";
 	font-size: 16px;
 }
+.product-item .desc-holder .characteristics li {
+	margin-bottom: 5px;
+}
 .product-item .desc-holder .price-holder {
 	color: #575656;
 	font-family: "Segoe UI", "Sans-serif";
@@ -758,10 +763,14 @@ a {
 
 
 .soc_buttons {
-	position: fixed;
-	right: 0;
-	top: 152px;
-	width: 70px;
+    position: fixed;
+    right: 0;
+    top: 152px;
+    width: 45px;
+    text-align: center;
+    margin-right: 20px;
+    background: rgba(255, 255, 255, 0.44);
+    border-radius: 5px;
 }
 
 .soc_buttons a {
@@ -769,7 +778,8 @@ a {
 	position: relative;
 }
 .soc_buttons a img {
-	margin-top: 30px;
+	margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #scrollup {
@@ -782,7 +792,8 @@ a {
 	bottom: 10px;
 	display: none;
 	cursor: pointer;
-	margin-bottom: 80px;
+	margin-bottom: -8px;
+    background: rgba(255, 255, 255, 0.7);
 }
 #scrollup i {
     font-size: 40px;

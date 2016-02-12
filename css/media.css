@@ -149,6 +149,9 @@
 	}
 }
 @media (max-width: 767px) {
+	.logo-fix {
+		margin: 0;
+	}
 	.footer .social-list.main {
 		display: block;
 	}
@@ -317,6 +320,9 @@
 	}
 }
 @media (max-width: 600px) {
+	.main-carousel {
+		margin-top: 31px;
+	}
 	.full-lits.text .plit {
 		height: auto;
 	}
