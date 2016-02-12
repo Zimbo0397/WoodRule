@@ -758,7 +758,7 @@ a {
 
 
 .soc_buttons {
-	position: absolute;
+	position: fixed;
 	right: 0;
 	top: 152px;
 	width: 70px;

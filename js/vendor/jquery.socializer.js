@@ -9,7 +9,6 @@
 (function($) {
 
    $.fn.socializer = function(options) {
-    
 	   //Значения по умолчанию
 	   options = $.extend({ 
 		   
@@ -135,6 +134,9 @@
            
         
         });
+
+        // setTimeout(socializer(),1000);
+
 
    }; 
 })(jQuery);
