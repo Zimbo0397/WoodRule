@@ -382,6 +382,9 @@
 	}
 }
 @media (max-width: 505px) {
+	.product-item .bott-holder {
+		display: none;
+	}
 	.blueimp-gallery>.indicator {
 		height: 32px;
 	}

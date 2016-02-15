@@ -589,7 +589,7 @@
                 </div>
             </div>
         </section>
-        <div class="soc_buttons" id="soc_buttons">
+        <div class="soc_buttons side-hddn" id="soc_buttons">
 
             <a title="Следите за мной на twitter" href="mailto:vlad@htmlbook.ru?subject=Вопрос по HTML"><img src="img/icons/main-icon.png" ></a>
 
@@ -615,7 +615,7 @@
         <script src="js/vendor/jquery.blueimp-gallery.min.js"></script>
         <script src="js/blueimp-gallery-Init.js"></script>
         <script src="js/vendor/jquery.bxslider.min.js"></script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIhAqsOQ8gkoan_Dl4TE63MxXKW4vT46Y&libraries=visualization&callback=initMap">
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIhAqsOQ8gkoan_Dl4TE63MxXKW4vT46Y&libraries=visualization&callback=initMap">
         </script>
         <script type="text/javascript">
 
@@ -664,6 +664,39 @@
                 zoom: 11
               });
             }
+        </script>
+        <script>
+        $(document).on('ready', function () {
+            var winWidth = $(window).width(),
+                winHeight = $(window).height(),
+                socials = (function () {
+                    var $el = $('#soc_buttons'),
+                        state = false,
+                        plg = {
+                            show: function () {
+                                if (!state ) {
+                                    $el.addClass('opened');
+                                    state = true;
+                                }
+                            },
+                            hide: function () {
+                                if (state) {
+                                    $el.removeClass('opened');
+                                    state = false;
+                                }
+                            }
+                        };
+                    return plg;
+                })();
+                $(document).on('scroll', function () {
+                    var top = $(this).scrollTop();
+                    if (top > 850) {
+                        socials.show();
+                    } else {
+                        socials.hide();
+                    }
+                });
+        })
         </script>
 
     </body>

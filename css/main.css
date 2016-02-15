@@ -771,6 +771,10 @@ a {
     margin-right: 20px;
     background: rgba(255, 255, 255, 0.44);
     border-radius: 5px;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	right: -200px;
 }
 
 .soc_buttons a {
@@ -930,4 +934,11 @@ a {
 }
 .foto-hidden {
 	display: none;
+}
+
+.soc_buttons.opened {
+	right: 0;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
 }
